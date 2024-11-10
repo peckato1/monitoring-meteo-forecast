@@ -1,0 +1,8 @@
+certifi==2024.8.30
+charset-normalizer==3.4.0
+dataclass-csv==1.4.0
+idna==3.10
+pytz==2024.2
+requests==2.32.3
+setuptools==75.3.0
+urllib3==2.2.3
