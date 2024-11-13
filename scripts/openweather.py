@@ -63,8 +63,8 @@ datapoint = DataPoint(
     wind_direction=data["wind"]["deg"],
     wind_gust_speed=data["wind"]["gust"],
     clouds_percentage=data["clouds"]["all"],
-    rain_1h=data.get("rain", dict()).get("1h", 0),
-    snow_1h=data.get("snow", dict()).get("1h", 0),
+    rain_1h=data.get("rain", dict()).get("1h", 0.0),
+    snow_1h=data.get("snow", dict()).get("1h", 0.0),
 )
 
 
